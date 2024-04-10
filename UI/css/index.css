@@ -166,12 +166,11 @@ main {
 }
 
 .welcome-text {
-  display:block;
   background-image: var(--linear-gradient);
   background-clip: text;
   color: transparent;
   font-size: 5vw;
-  font-weight: bold; 
+  font-weight: bold;
   font-family: nasa;
   padding-left: 10vw;
   margin: 20px;
