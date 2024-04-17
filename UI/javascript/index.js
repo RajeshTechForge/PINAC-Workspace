@@ -1,4 +1,3 @@
-
 const messageForm = document.getElementsByClassName('message-form');
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
@@ -68,6 +67,46 @@ const show_user_query = (query) => {
   scrollIfNeeded();
 }
 
+const show_ai_ans_email_format = (ans) => {
+  const container = document.querySelector('#chat-box');
+  const div = document.createElement('div');
+  div.className = 'container';
+  const p = document.createElement('p');
+  p.className = 'text-container ai';
+  div.appendChild(p);
+  container.appendChild(div);
+  // Check if container exists (optional, but recommended):
+  if (!container) {
+    console.error('Container element with ID "chat-box" not found!');
+    return;
+  }
+  
+  // Fetch email-composer.html content
+  fetch('email-composer.html')
+    .then(response => response.text()) // Parse the response as text
+    .then(htmlContent => {
+      // Set the container's inner HTML with email composer content:
+      //sendEmail(ans)
+      p.innerHTML = htmlContent; 
+      const parts = ans.split("\n\n");
+      const subject = parts[0].slice(8); // Remove "Subject: "
+      const body = parts.slice(1).join("\n"); // Remove trailing "\n\n\nDraft email created for you"
+      console.log({ subject, body });
+    // Get references to subject and body elements from the loaded HTML
+      const subjectInput = document.getElementById("subject");
+      const bodyTextarea = document.getElementById("body");
+      if (subjectInput && bodyTextarea) {
+        subjectInput.value = subject;
+        bodyTextarea.value = body;
+      } else {
+        console.error("Could not find subject or body elements");
+      }
+    })
+    .catch(error => {
+      console.error('Error loading email-composer.html:', error);
+    });
+}
+
 // function to show AI response with autoscroll
 const show_ai_ans = (ans) => {
   const container = document.querySelector('#chat-box');
@@ -114,7 +153,12 @@ const give_response = () => {
       // Hide loading animation
       hideLoadingAnimation();
       // Show AI response
-      show_ai_ans(response);
+      if (response.includes("Draft email created for you")) {
+        show_ai_ans_email_format(response);
+      }
+      else{
+        show_ai_ans(response);
+      }
 
       //Enable after AI generates response
       messageInput.disabled = false;

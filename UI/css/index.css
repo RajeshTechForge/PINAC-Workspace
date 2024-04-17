@@ -92,7 +92,7 @@ header {
   gap: 50px;
 }
 
-label {
+label[for="darkmode-toggle"]{
   height: 30px;
   width: 70px;
   position: relative;
@@ -103,7 +103,7 @@ label {
   cursor: pointer;
   transition: 0.3s;
 }
-label:after {
+label[for="darkmode-toggle"]:after{
   content: "";
   width: 30px;
   height: 30px;
