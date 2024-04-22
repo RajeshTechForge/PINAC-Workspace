@@ -1,10 +1,31 @@
-<img src="https://github.com/rmondal-official/PINAC-Workspace/blob/main/img/readme_header.png" alt="">
+
+## ⚠️ Repository Notice ⚠️
+
+**Important Update**: This repository for `PINAC_Workspace` is no longer being actively maintained and will be **closing soon**. We are excited to announce that development will continue in our new repository, **PINAC_Workspace-2.0** from @pinacai
+
+
+## ✨ Development to get better: visit <a href="https://github.com/RajeshTechForge/PINAC_Workspace-2.0">PINAC Workspace 2.0</a>
+As we continue to innovate and improve, we've realized that the **Eel framework**, while robust, offers limited features for our ambitious goals. That's why we're thrilled to introduce **PINAC_Workspace-2.0** —a leap forward into a more dynamic and expansive development environment.
+Here's what new to expect:
+- A seamless integration of **Electron JS** for a robust core and **React JS** for a responsive frontend, complemented by the power of Python in the backend.
+- Enhanced optimization for **multiplatform compatibility**, ensuring a smooth and consistent experience across all devices.
+- A commitment to **code clarity** and maintainability, making it easier for developers to contribute and collaborate.
+- Recognition and incorporation of **community contributions**—your valuable code from PINAC-Workspace will be part of this new chapter.
+
+_Thanks to all our contributors for their support, we're excited for you to join us on this journey to a more versatile and powerful workspace. Stay tuned for the official launch of **PINAC_Workspace-2.0** !_
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<br>
+<br>
+
+<img src="https://github.com/rajeshtechforge/PINAC_Workspace/blob/main/img/readme_header.png" alt="">
 <div align="middle">
   
 ![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-[![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/rmondal-official)
-[![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/rmondal-official?tab=repositories)
+[![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/rajeshtechforge)
+[![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/rajeshtechforge?tab=repositories)
 
 [![](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
@@ -27,27 +48,24 @@
   
 - **Stylish Interface:** Who says productivity tools can't be stylish? Dive into a world of sleek design and intuitive interaction with PINAC's visually stunning GUI. Engage in lively conversations, pose questions, and bask in the beauty of productivity reimagined! 🎨
 <br>
-<img src="https://github.com/rmondal-official/PINAC-Workspace/blob/main/img/intergace%20image.png" alt="app screenshot">
+<img src="https://github.com/RajeshTechForge/PINAC_Workspace/blob/main/img/intergace%20image.png" alt="app screenshot">
 
 ## 🚀 Getting Started
 
-This tool is tested on Python `3.10.12` and `Ubuntu`. But this will work very well with other Python versions and operating systems as this tool doesn't require any particular OS-dependent library. But once search on Google for the Python version compatibility with google python modules. But still, if you face any error report it in the `Issues` section.
+This tool is tested on Python `3.10.12`. But this will work very well with other Python versions. But once search on Google for the Python version compatibility with google python modules. But still, if you face any error report it in the `Issues` section.
 
 - **Clone the repository:** Get the masterpiece in your local system by running
-  ```
-  git clone https://github.com/rmondal-official/PINAC-Workspace.git
-  ```
 
-- **Activate Google API:** Unlock the power of Google API by following <a href="https://github.com/rmondal-official/PINAC-Workspace/blob/main/Google%20API%20Guide.md">our Google API Guide</a>. Don't worry; we've got your back! Dive into the Google API Guide for a smooth setup.
+- **Activate Google API:** Unlock the power of Google API by following <a href="https://github.com/rajeshtechforge/PINAC_Workspace/blob/main/Google%20API%20Guide.md">our Google API Guide</a>. Don't worry; we've got your back! Dive into the Google API Guide for a smooth setup.
 
 - **Navigate to the Project:** Step into the heart of PINAC-Workspace by navigating to the project directory: `cd PINAC-Workspace`
 
-- **Obtain Your OpenAI API Key:** Create your OpenAI API key by going to <a href="https://platform.openai.com/api-keys">: Once you're logged in, navigate to the API Keys section and generate a new key.
-
+- **Obtain Your OpenAI API Key:** Once logged in navigate to <a href="https://platform.openai.com/api-keys">the API Keys section </a> and generate a new key.
+ 
 - **Create the .env File** Inside your project's /src/configs directory, create a new file named .env. It's important to note that this file is typically ignored by version control systems (like Git) to prevent accidental exposure of your secret key.
 
-- **Set the Environment Variable:** Open the .env file in a text editor and add the following line, replacing <YOUR_OPENAI_API_KEY> with your actual key:
-OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
+- **Set the Environment Variable:** Open the .env file in a text editor and add the following line, replacing **<YOUR_OPENAI_API_KEY>** with your actual key:
+**OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>**
 
 
 - **Prepare Your Machine**: Create the **Virtual Environment** by the name `venv` and activate it by running
@@ -61,19 +79,8 @@ OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
   
 - **Launch Your Experience**: Once you've embarked on this exciting journey, run the `main.py` file and let the adventure begin! Connect to your Google Apps by clicking the **Sign Up** Button.
 
-
-## 🎉 Contribution!
-
-PINAC-Workspace is the best Repository for you to contribute!  
-**Are you Web Developer ?** Contribute to PINAC's stunning GUI Interface., it's same as frontend development.    
-**Are you Python Programmer ?** Contribute to automation, smoothing the internal functions.  
-**Want to Solve Issue ?** Pick an issue and solve !
-**Having an Idea ?** Make an issue under enhancement tag and start work on your pull request.  
-for more visit <a href="https://github.com/rmondal-official/PINAK/blob/main/CONTRIBUTING.md">Contribution Guide</a>.
-
 ## 📄 License
-
-This project is licensed under the <a href="https://github.com/rmondal-official/PINAC-Workspace/blob/1f50228e5033a7901e3b39b67d4da80d58bef0f7/LICENSE">**GPL-3.0 license**</a>
+This project is licensed under the <a href="https://github.com/RajeshTechForge/PINAC_Workspace/blob/main/LICENSE">**GPL-3.0 license**</a>
 
 ## 🤖 Contributors
 PINAC-Workspace is flourishing under the care and contribution of a GitHub Community. Thanks to all our contributors
