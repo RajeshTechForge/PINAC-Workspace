@@ -1,7 +1,7 @@
 
 ## ⚠️ Repository Notice ⚠️
 
-**Important Update**: This repository for `PINAC-Workspace` is no longer being actively maintained and will be **closing soon**. We are excited to announce that development will continue in our new repository, **'PINAC-Workspace 2.0'**
+**Important Update**: This repository for `PINAC-Workspace` is no longer being actively maintained and will be **closing soon**. We are excited to announce that development will continue in our new repository, **'PINAC-Workspace_2.0'**
 
 ## ✨ Embracing Evolution: The Journey to PINAC-Workspace 2.0
 
@@ -54,9 +54,6 @@ We're excited for you to join us on this journey to a more versatile and powerfu
 This tool is tested on Python `3.10.12` and `Ubuntu`. But this will work very well with other Python versions and operating systems as this tool doesn't require any particular OS-dependent library. But once search on Google for the Python version compatibility with google python modules. But still, if you face any error report it in the `Issues` section.
 
 - **Clone the repository:** Get the masterpiece in your local system by running
-  ```
-  git clone https://github.com/rmondal-official/PINAC-Workspace.git
-  ```
 
 - **Activate Google API:** Unlock the power of Google API by following <a href="https://github.com/rmondal-official/PINAC-Workspace/blob/main/Google%20API%20Guide.md">our Google API Guide</a>. Don't worry; we've got your back! Dive into the Google API Guide for a smooth setup.
 
@@ -87,8 +84,8 @@ OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
 PINAC-Workspace is the best Repository for you to contribute!  
 **Are you Web Developer ?** Contribute to PINAC's stunning GUI Interface., it's same as frontend development.    
 **Are you Python Programmer ?** Contribute to automation, smoothing the internal functions.  
-**Want to Solve Issue ?** Pick an issue and solve !
-**Having an Idea ?** Make an issue under enhancement tag and start work on your pull request.  
+**Want to Solve Issue ?** Pick an issue and solve !  
+**Having an Idea ?** Make an issue under enhancement tag and start work on your pull request.   
 for more visit <a href="https://github.com/rmondal-official/PINAK/blob/main/CONTRIBUTING.md">Contribution Guide</a>.
 
 ## 📄 License
