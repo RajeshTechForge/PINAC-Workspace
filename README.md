@@ -1,19 +1,19 @@
 
 ## ⚠️ Repository Notice ⚠️
 
-**Important Update**: This repository for `PINAC-Workspace` is no longer being actively maintained and will be **closing soon**. We are excited to announce that development will continue in our new repository, **'PINAC-Workspace_2.0'**
+**Important Update**: This repository for `PINAC-Workspace` is no longer being actively maintained and will be **closing soon**. We are excited to announce that development will continue in our new repository, **pinac_workspace** from **pinacai**
 
-## ✨ Embracing Evolution: The Journey to PINAC-Workspace 2.0
+## ✨ Embracing Evolution: The Journey to <a href="https://github.com/pinacai/pinac_workspace">pinac_workspace</a>
 
-As we continue to innovate and improve, we've realized that the **Eel framework**, while robust, offers limited features for our ambitious goals. That's why we're thrilled to introduce **PINAC-Workspace 2.0**—a leap forward into a more dynamic and expansive development environment.
+As we continue to innovate and improve, we've realized that the **Eel framework**, while robust, offers limited features for our ambitious goals. That's why we're thrilled to introduce **pinac_workspace** from **pinacai**—a leap forward into a more dynamic and expansive development environment.
 
-Here's what to expect with **PINAC-Workspace 2.0**:
+Here's what new to expect:
 - A seamless integration of **Electron JS** for a robust core and **React JS** for a responsive frontend, complemented by the power of Python in the backend.
 - Enhanced optimization for **multiplatform compatibility**, ensuring a smooth and consistent experience across all devices.
 - A commitment to **code clarity** and maintainability, making it easier for developers to contribute and collaborate.
 - Recognition and incorporation of **community contributions**—your valuable code from PINAC-Workspace will be part of this new chapter.
 
-We're excited for you to join us on this journey to a more versatile and powerful workspace. Stay tuned for the official launch of **PINAC-Workspace 2.0**!
+We're excited for you to join us on this journey to a more versatile and powerful workspace. Stay tuned for the official launch of **pinac_workspace** from **pinacai**!
 
 
 
@@ -55,7 +55,7 @@ This tool is tested on Python `3.10.12` and `Ubuntu`. But this will work very we
 
 - **Clone the repository:** Get the masterpiece in your local system by running
 
-- **Activate Google API:** Unlock the power of Google API by following <a href="https://github.com/rmondal-official/PINAC-Workspace/blob/main/Google%20API%20Guide.md">our Google API Guide</a>. Don't worry; we've got your back! Dive into the Google API Guide for a smooth setup.
+- **Activate Google API:** Unlock the power of Google API by following <a href="https://github.com/rajeshtechforge/PINAC-Workspace/blob/main/Google%20API%20Guide.md">our Google API Guide</a>. Don't worry; we've got your back! Dive into the Google API Guide for a smooth setup.
 
 - **Navigate to the Project:** Step into the heart of PINAC-Workspace by navigating to the project directory: `cd PINAC-Workspace`
 
@@ -82,8 +82,8 @@ OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
 ## 🎉 Contribution!
 
 PINAC-Workspace is the best Repository for you to contribute!  
-**Are you Web Developer ?** Contribute to PINAC's stunning GUI Interface., it's same as frontend development.    
-**Are you Python Programmer ?** Contribute to automation, smoothing the internal functions.  
+**Are you a Web Developer ?** Contribute to PINAC's stunning GUI Interface., it's the same as frontend development.    
+**Are you a Python Programmer ?** Contribute to automation, smoothing the internal functions.  
 **Want to Solve Issue ?** Pick an issue and solve !  
 **Having an Idea ?** Make an issue under enhancement tag and start work on your pull request.   
 for more visit <a href="https://github.com/rmondal-official/PINAK/blob/main/CONTRIBUTING.md">Contribution Guide</a>.
