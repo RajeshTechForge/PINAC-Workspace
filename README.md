@@ -1,10 +1,10 @@
 
 ## ⚠️ Repository Notice ⚠️
 
-**Important Update**: This repository for `PINAC_Workspace` is no longer being actively maintained. We are excited to announce that development is continuing in our new repository, **PINAC_Workspace-2.0** from @pinacai
+**Important Update**: This repository for `PINAC_Workspace` is no longer being actively maintained. We are excited to announce that development is continuing in our new repository, **PINAC_Workspace** from @pinacai
 
 
-## ✨ Development to get better: visit [PINAC Workspace 2.0](https://github.com/pinacai/PINAC_Workspace-2.0)
+## ✨ Development to get better: visit [PINAC Workspace 2.0](https://github.com/pinacai/PINAC_Workspace)
 As we continue to innovate and improve, we've realized that the **Eel framework**, while robust, offers limited features for our ambitious goals. That's why we're thrilled to introduce **PINAC_Workspace-2.0** —a leap forward into a more dynamic and expansive development environment.
 Here's what new to expect:
 - Introduced Next Gen Chat feature, you just need one chat for all your task. Say goodbye to window switching !
